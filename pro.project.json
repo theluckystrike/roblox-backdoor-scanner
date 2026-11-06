@@ -1,0 +1,7 @@
+{
+  "name": "ZovoBackdoorScannerPro",
+  "tree": {
+    "$path": "src",
+    "Edition": { "$path": "editions/pro/Edition.luau" }
+  }
+}

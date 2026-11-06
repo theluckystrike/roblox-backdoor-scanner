@@ -1,0 +1,9 @@
+{
+  "name": "DoorKit",
+  "tree": {
+    "$className": "Model",
+    "Door": { "$className": "Part", "ClickDetector": { "$className": "ClickDetector" }, "Door": { "$path": "clean/Door.server.luau" } },
+    "Leaderstats": { "$path": "clean/Leaderstats.server.luau" },
+    "Config": { "$path": "clean/Config.luau" }
+  }
+}

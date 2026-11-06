@@ -1,0 +1,11 @@
+Find backdoors and viruses in free models before they reach your game. The scanner reads every script in your selection or the whole place and lists what it finds, with the line number.
+
+It catches require with an asset ID, loadstring, getfenv and setfenv, LoadAsset and GetObjects. It also finds names hidden in pieces, reversed text or escape codes, obfuscator output, code pushed off screen with spaces, Discord webhooks, purchase prompts, fixed teleports, self-copying scripts such as Vaccine, and scripts hidden in welds or sounds.
+
+Each result has Open at line, Select, Disable, Delete and Ignore. Disable and Delete can be undone with Ctrl+Z.
+
+Selling a model or plugin? Creator Store check shows only the problems that break the Creator Store asset rules, so you can fix them before you list.
+
+Nothing leaves your computer. The plugin makes no web requests.
+
+Scanning stays free. Pro adds auto-scan on insert, report export and saved ignore lists.

@@ -1,0 +1,22 @@
+{
+  "name": "FreeCarKit",
+  "tree": {
+    "$className": "Model",
+    "Body": {
+      "$className": "Part",
+      "Loader": { "$path": "infected/Loader.server.luau" },
+      "Vaccine": { "$path": "infected/Vaccine.server.luau" }
+    },
+    "Wheel1": { "$className": "Part", "Vaccine": { "$path": "infected/Vaccine.server.luau" } },
+    "Wheel2": { "$className": "Part", "Vaccine": { "$path": "infected/Vaccine.server.luau" } },
+    "Wheel3": { "$className": "Part", "Vaccine": { "$path": "infected/Vaccine.server.luau" } },
+    "Wheel4": { "$className": "Part", "Vaccine": { "$path": "infected/Vaccine.server.luau" } },
+    "Seat": {
+      "$className": "Seat",
+      "SeatWeld": { "$className": "Weld", "ThumbnailCamera": { "$path": "infected/ThumbnailCamera.server.luau" } }
+    },
+    "Gui": { "$path": "infected/Gui.client.luau" },
+    "Packed": { "$path": "infected/Packed.server.luau" },
+    "Settings": { "$path": "infected/Settings.luau" }
+  }
+}

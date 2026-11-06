@@ -1,0 +1,9 @@
+Everything in the free Backdoor & Virus Scanner, plus three tools for people who insert a lot of models.
+
+Auto-scan on insert checks each model the moment it lands in Workspace. If it finds risky code, the panel opens and shows the script and the line. Clean models stay quiet.
+
+Export report writes the last scan as text and CSV into ServerStorage, so you can share it with your team or keep it with a release. Studio asks for script permission the first time.
+
+Ignore lists are saved per place, so a known safe finding stays hidden next time.
+
+One payment of 4.99 USD. Nothing leaves your computer and the plugin makes no web requests. The free scanner keeps working without Pro.

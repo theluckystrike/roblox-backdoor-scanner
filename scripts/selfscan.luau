@@ -1,0 +1,10 @@
+-- Prints the scan report for a built .rbxm. Run: lune run scripts/selfscan.luau build/ZovoBackdoorScanner.rbxm [store]
+local roblox = require("@lune/roblox")
+local fs = require("@lune/fs")
+local process = require("@lune/process")
+local TreeScan = require("../src/Core/TreeScan")
+local Report = require("../src/Core/Report")
+local roots = roblox.deserializeModel(fs.readFile(process.args[1]))
+local rep = TreeScan.scan(roots, TreeScan.InstanceAdapter, { storeOnly = process.args[2] == "store" })
+print(Report.toText(rep))
+process.exit(if rep.verdict == "clean" or rep.verdict == "ready" then 0 else 2)
