@@ -56,8 +56,6 @@ Pro is a separate plugin on the Creator Store for 4.99 USD, paid one time. It ad
 - Export report. The last scan is saved as text and CSV in ServerStorage.ZovoScanReports. Studio asks for script permission the first time.
 - Ignore lists saved per place.
 
-If the scanner saved you time, you can support the work at [GitHub Sponsors](https://github.com/sponsors/theluckystrike).
-
 ## Build from source
 
 You need [Rojo](https://rojo.space) 7.7 or newer and [Lune](https://lune-org.github.io/docs) 0.11 or newer.
@@ -84,9 +82,21 @@ The two test models are in `tests/fixtures`. They contain inert copies of common
 - Scripts that Studio does not let plugins read, such as CoreScripts, are skipped.
 - A rule can match code that is safe in your game. For example, a purchase prompt in your own shop is fine. Use Ignore for those.
 
-## More from Zovo
+[zovo-support-start]: #
 
-Zovo also makes free developer tools for VS Code, such as Context Drift, which checks AGENTS.md and CLAUDE.md files for stale references, and viewers for JSONL, SQLite and Parquet files.
+## Support Zovo
+
+Zovo builds and maintains this plugin. If it saves you time, you can support the work on [GitHub Sponsors](https://github.com/sponsors/theluckystrike). Sponsorship is optional, and the tool works the same without it.
+
+The Creator Store listing has no outside links, because Roblox does not allow them there.
+
+Zovo is made by [theluckystrike](https://github.com/theluckystrike) on GitHub.
+
+## More tools by Zovo
+
+- [All Zovo tools on GitHub](https://github.com/theluckystrike?tab=repositories). Free developer tools for VS Code, Apify, Confluence, Jira and Minecraft servers.
+
+[zovo-support-end]: #
 
 ## License
 
